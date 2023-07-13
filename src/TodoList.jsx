@@ -5,7 +5,7 @@ function TodoList({ todos }) {
       {todos.map((todo) => 
       (
         <li key={todo.id}>
-          <input type="checkbox" className="todo" defaultChecked={todo.done}></input>
+          <input type="checkbox" className="checkbox" defaultChecked={todo.done}></input>
           <label>{todo.label}</label>
         </li>
       ))}

@@ -8,15 +8,27 @@ html {
     background-repeat: no-repeat;
 }
 
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .app {
+        width: 30%;
+    }
+}
+
 h1 {
     font-size: 36px;
     padding-top: 5%;
     color: white;
+    text-align: center;
 }
 
 .line {
     border-bottom: solid 1px white;
-    padding: 5%;
+    padding: 20px;
 }
 
 form {
@@ -24,14 +36,17 @@ form {
 
     input {
         font-size: 20px;
+        margin-right: 10%;
+        width: 60%;
     }
 
     button {
         text-align: center;
         font-size: 20px;
+        font-variant: small-caps;
         background: linear-gradient(to bottom, rgb(201, 100, 161), rgb(121, 102, 199));
         border-radius: 10px;
-        padding: 0% 1%;
+        padding: 0% 5%;
     }
 }
 
@@ -42,4 +57,9 @@ form {
     list-style-type: none;
     padding-top: 5%;
     padding-left: 0%;
+    line-height: 2;
+
+    .checkbox {
+        margin-right: 2%;
+    }
 }

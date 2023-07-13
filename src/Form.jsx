@@ -16,7 +16,7 @@ function Form({ onInputChange }) {
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" value={inputValue} onChange={handleInput} />
-      <button type="submit">Add Todo</button>
+      <button type="submit">add</button>
     </form>
   );
 }

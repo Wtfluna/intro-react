@@ -30,13 +30,14 @@ function App() {
   }, [todos])
 
   return (
-    <div>
+    <div className="container">
+      <div className="app">
       <h1>My Todo App</h1>
       <div className="line"></div>
       <Form onInputChange={addTodo} />
       <div className="line"></div>
       <TodoList todos={todos} />
-    </div>
+    </div></div>
   );
 }
 
