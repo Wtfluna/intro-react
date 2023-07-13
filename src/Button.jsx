@@ -1,6 +1,6 @@
 function Button() {
   return (
-    <button type="submit" className="submit-button">Submit</button> 
+    <button type="submit" className="submit-button">Add</button> 
   )  
 }
 

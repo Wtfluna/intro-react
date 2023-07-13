@@ -3,7 +3,7 @@
 html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
-    padding-left: 5%;
+    padding-left: 2%;
     background: linear-gradient(to bottom, rgb(196, 175, 223), rgb(121, 102, 199));
     background-repeat: no-repeat;
 }
@@ -16,7 +16,7 @@ h1 {
 
 .line {
     border-bottom: solid 1px white;
-    padding-top: 5%;
+    padding: 5% ;
 }
 
 .add-todo {
@@ -31,6 +31,7 @@ h1 {
         font-size: 20px;
         background: linear-gradient(to bottom, rgb(201, 100, 161), rgb(121, 102, 199));
         border-radius: 10px;
+        padding: 0% 1%;
     }
 
     &__list {
